@@ -1,0 +1,145 @@
+    .projetos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    
+    .container2 {
+        font-family: rift-soft, sans-serif;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        z-index: 1;
+    }
+    
+    .container2 .card {
+        position: relative;
+        width: 280px;
+        height: 400px;
+        margin: 30px;
+        box-shadow: 10px 10px 30px rgba(208, 12, 226, 0.267);
+        border-radius: 15px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container2 .card .content {
+        padding: 135px 5px 135px 5px;
+        text-align: center;
+        transform: translateY(100px);
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    .container2 .card:hover .content {
+        transform: translateY(0px);
+        opacity: 1;
+        background-color: #270140c5;
+    }
+    
+    .container2 .card .content h2 {
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        font-size: 6em;
+        color: rgba(248, 247, 247, 0.534);
+        pointer-events: none;
+    }
+    
+    .mouse {
+        font-family: rift-soft, sans-serif;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container2 .card .content h3 {
+        font-size: 1.8em;
+        color: #FFF;
+        z-index: 1;
+    }
+    
+    .container2 .card .content p {
+        font-size: 1em;
+        color: #FFF;
+        font-weight: 300;
+    }
+    
+    .container2 .card .content a {
+        position: relative;
+        display: inline-block;
+        padding: 8px 20px;
+        margin-top: 15px;
+        background: #FFF;
+        color: #270140c5;
+        font-weight: bold;
+        text-decoration: none;
+        border-radius: 20px;
+        box-shadow: 0px 5px 15px rgba(204, 11, 221, 0.322);
+    }
+    
+    .card--01 {
+        background-image: url(../imagens/flexprojeto1.png);
+        background-position: 30%;
+        background-size: cover;
+    }
+    
+    .card--02 {
+        background-image: url(../imagens/assinaturaprojeto2.png);
+        background-position: 49%;
+        background-size: cover;
+    }
+    
+    .card--03 {
+        background-image: url(../imagens/pageassinaturas1.png);
+        background-position: 49%;
+        background-size: cover;
+    }
+    
+    .card--04 {
+        background-image: url(../imagens/ofuscador1.png);
+        background-position: 49%;
+        background-size: cover;
+    }
+    
+    .card--05 {
+        background-image: url(../imagens/starbucks.png);
+        background-position: 49%;
+        background-size: cover;
+    }
+    
+    .card--06 {
+        background-image: url(../imagens/ajax1.png);
+        background-position: 49%;
+        background-size: cover;
+    }
+    
+    .card--07 {
+        background-image: url(../imagens/pagehotel1.png);
+        background-position: 49%;
+        background-size: cover;
+    }
+    
+    .card--08 {
+        background-image: url(../imagens/mapafaculfrontend.png);
+        background-position: 49%;
+        background-size: cover;
+    }
+    
+    .card--01:hover,
+    .card--02:hover,
+    .card--03:hover,
+    .card--04:hover,
+    .card--05:hover,
+    .card--06:hover,
+    .card--07:hover,
+    .card--08:hover {
+        z-index: 1;
+    }

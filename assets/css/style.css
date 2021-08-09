@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #270140;
+}
+
+
+/* ANIMAÇÃO DO PRELOAD*/
+
+iframe {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    border: none;
+    z-index: 999;
+    background-color: #270140;
+    animation-name: preload;
+    animation-duration: 3s;
+}
+
+@keyframes preload {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+/*CABEÇALHO*/
+
+.header {
+    font-family: rift-soft, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-topo {
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    height: 60px;
+    width: 100%;
+    color: #FFF;
+}
+
+.igmlogo {
+    margin-top: 5px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding-left: 30px;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+#projetos1,
+#home,
+#cursos3,
+#contato4 {
+    cursor: default;
+    border-bottom: 2px solid #FFF;
+    color: #fff;
+}
+
+
+/*TEXTO PRINCIPAL*/
+
+h1::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.corpo {
+    display: flex;
+    color: #FFF;
+}
+
+.imgetext {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: rift-soft, sans-serif;
+    font-size: 1.2em;
+}
+
+.textperfil {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.titulo-h1,
+.tituloprojetos h1,
+.titulocursos h1,
+.titulocontato h1 {
+    color: #FFF;
+    font-family: beloved-sans, sans-serif;
+    font-size: 2.1em;
+    text-align: end;
+}
+
+.just {
+    display: flex;
+    align-items: center;
+}
+
+.just p {
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.barrafooter {
+    border-bottom: 1px solid #FFF;
+}
+
+footer {
+    text-align: center;
+    font-family: rift-soft, sans-serif;
+    color: #FFF;
+}
+
+footer p {
+    padding: 10px;
+}

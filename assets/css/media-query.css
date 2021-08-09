@@ -1,0 +1,15 @@
+@media (max-width: 1440px) {
+    .slide {}
+}
+
+@media (max-width: 970px) {
+    .slide {
+        width: 100%;
+    }
+}
+
+@media(max-width:768px) {
+    .image img {
+        width:
+    }
+}
