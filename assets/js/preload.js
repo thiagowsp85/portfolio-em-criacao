@@ -3,4 +3,4 @@ function showSubmit() {
     document.getElementById('loadpre').style.display = 'none';
 }
 
-setTimeout(showSubmit, 2000);
+setTimeout(showSubmit, 5000);

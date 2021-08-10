@@ -19,7 +19,7 @@ iframe {
     z-index: 999;
     background-color: #270140;
     animation-name: preload;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 @keyframes preload {
