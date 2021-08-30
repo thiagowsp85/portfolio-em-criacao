@@ -5,6 +5,14 @@
         min-height: 100vh;
     }
     
+    #projetos1 {
+        border-bottom: 2px solid #270140;
+    }
+    
+    .menu-projetos {
+        z-index: -1;
+    }
+    
     .container2 {
         font-family: rift-soft, sans-serif;
         position: relative;
@@ -13,7 +21,6 @@
         align-items: center;
         max-width: 1200px;
         flex-wrap: wrap;
-        z-index: 1;
     }
     
     .container2 .card {
@@ -63,7 +70,6 @@
     .container2 .card .content h3 {
         font-size: 1.8em;
         color: #FFF;
-        z-index: 1;
     }
     
     .container2 .card .content p {
@@ -131,15 +137,4 @@
         background-image: url(../imagens/mapafaculfrontend.png);
         background-position: 49%;
         background-size: cover;
-    }
-    
-    .card--01:hover,
-    .card--02:hover,
-    .card--03:hover,
-    .card--04:hover,
-    .card--05:hover,
-    .card--06:hover,
-    .card--07:hover,
-    .card--08:hover {
-        z-index: 1;
     }
